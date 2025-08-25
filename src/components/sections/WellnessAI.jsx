@@ -50,6 +50,7 @@ export function WellnessAI() {
             {WELLNESS_AI.subtitle}
           </p>
         </div>
+        </div>
         
         <Card className="shadow-2xl border-primary/10 bg-white/60 backdrop-blur-md max-w-3xl mx-auto">
           <CardContent className="p-8">
