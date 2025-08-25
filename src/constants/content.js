@@ -2,18 +2,39 @@
 export const SITE_CONFIG = {
   name: "Sarira",
   tagline: "Traditional Tamil Wellness",
-  description: "Discover the ancient wisdom of Tamil wellness traditions"
+  description: "Discover the ancient wisdom of Tamil wellness traditions",
+  contact: {
+    email: "hello@sarira.com",
+    phone: "+91 98765 43210",
+    address: "123 Wellness Street, Chennai, Tamil Nadu 600001",
+    whatsapp: "https://wa.me/919876543210"
+  }
 };
 
 // Navigation
 export const NAVIGATION = {
-  home: "Home",
-  about: "About",
-  products: "Products",
-  recipes: "Recipes",
-  culture: "Culture",
-  gallery: "Gallery",
-  contact: "Contact"
+  main: [
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "Products", href: "/products" },
+    { label: "Recipes", href: "/recipes" },
+    { label: "Culture", href: "/culture" },
+    { label: "Gallery", href: "/gallery" }
+  ],
+  footer: [
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "Products", href: "/products" },
+    { label: "Recipes", href: "/recipes" },
+    { label: "Culture", href: "/culture" },
+    { label: "Gallery", href: "/gallery" }
+  ],
+  policies: [
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Terms of Service", href: "/terms-of-service" },
+    { label: "Shipping & Delivery", href: "/shipping-delivery" },
+    { label: "Returns & Refunds", href: "/returns-refunds" }
+  ]
 };
 
 // Hero Section
