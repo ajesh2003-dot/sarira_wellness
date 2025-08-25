@@ -40,6 +40,10 @@ export function WellnessAI() {
         backgroundSize: '20px 20px',
         backgroundPosition: '0 0, 0 10px, 10px -10px, -10px 0px'
       }}></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
             {WELLNESS_AI.title}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
